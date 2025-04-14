@@ -81,9 +81,9 @@ def ip_track():
         except Exception as e:
             print(Fore.RED+f'Error: {e}')
         
-        doorasho = input('Ma doonaysaa inaad IP kale baarto? (haa/maya): ').lower()
-        if doorasho == 'maya':
-            print(Fore.YELLOW+'Thanks for using the IP tracker!')
+        doorasho = input('Ma doonaysaa inaad IP kale baarto? (yes/no): ').lower()
+        if doorasho == 'no':
+            #print(Fore.YELLOW+'Thanks for using the IP tracker!')
             break
             
             
