@@ -162,18 +162,15 @@ while True:
         ip_scanner = Style.BRIGHT + Fore.LIGHTGREEN_EX + pyfiglet.figlet_format('IP SCCANNER')
         print(ip_scanner)
         ip_target()
-	print('thanks for using ip_scanner')
-	break
-        
+        print('thanks for using ip_scanner')
+        break
+
     elif choice == "2":
         ip_location = Style.BRIGHT + Fore.LIGHTGREEN_EX + pyfiglet.figlet_format('IP TRACKER')
         print(ip_location)
         ip_track()
-	print('thanks for using ip_track')
-	break
-	    
-	    
-	    
+        print('thanks for using ip_track')
+        break
 
     elif choice == "3":
         whois_banner = Style.BRIGHT + Fore.LIGHTGREEN_EX + pyfiglet.figlet_format("WHOIS INFO")
