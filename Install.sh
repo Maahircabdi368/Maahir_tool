@@ -15,10 +15,10 @@ fi
 
 # Rakiba dependencies
 echo "[+] Installing required Python libraries..."
-pip install colorama requests python-whois pyfiglet socket 
+pip install colorama requests python-whois pyfiglet s 
 
 echo "[+] Dhammaan libraries waa la rakibay."
 
 # Run tool (ikhtiyaari)
 echo "[*] Hadda waxaad bilaabi kartaa tool-ka:"
-echo "python3 maahir-tool.py"
+echo "python3 Maahir.py"
