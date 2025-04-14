@@ -28,7 +28,7 @@ def ip_target():
 		
 		doorasho_kale=input(Fore.YELLOW+'\nMa doonaysaa inaad IP kale baarto? (yes/no): ').lower()
 		if doorasho_kale == 'no':
-			print(Fore.LIGHTGREEN_EX+'Thanks for using IP scanner.')
+			# print(Fore.LIGHTGREEN_EX+'Thanks for using IP scanner.')
 			break
 				
 				
