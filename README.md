@@ -14,5 +14,6 @@
 ```bash
 git clone https://github.com/Maahircabdi368/Maahir_tool.git
 cd Maahir_tool
+pip install -r requirments.txt
 bash install.sh
 python3 Maahir.py
