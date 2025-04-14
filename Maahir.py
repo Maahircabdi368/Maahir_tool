@@ -162,7 +162,7 @@ while True:
         ip_scanner = Style.BRIGHT + Fore.LIGHTGREEN_EX + pyfiglet.figlet_format('IP SCCANNER')
         print(ip_scanner)
         ip_target()
-        print(Fore.LIGHTGREEN + 'thanks for using ip_scanner')
+        print(Fore.LIGHTGREEN_EX + 'thanks for using ip_scanner')
         break
 
     elif choice == "2":
