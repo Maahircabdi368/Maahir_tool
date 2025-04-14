@@ -173,7 +173,7 @@ while True:
     	 print(whois_banner)
     	 domain = input(Fore.YELLOW+'gali domian (tusale:[google.com]):')
     	 get_whois_info(domain)
-	break
+	 break
     	
     elif choice == "4":
     	print(Fore.YELLOW,'thanks for using ')
