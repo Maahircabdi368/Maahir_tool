@@ -1,6 +1,6 @@
-# Maahir IP Toolkit
+# Maahir_tool
 
-**Maahir IP Toolkit** waa tool fudud oo kuu oggolaanaya inaad sameyso baaritaanno IP ah oo kala duwan. Waxaa ku jira:
+**Maahir_tool** waa tool fudud oo kuu oggolaanaya inaad sameyso baaritaanno IP ah oo kala duwan. Waxaa ku jira:
 
 ### Features:
 1. **IP Scanner** – Baadhitaanka ports-ka muhiimka ah ee IP-ga.
