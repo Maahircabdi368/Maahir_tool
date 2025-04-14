@@ -159,25 +159,26 @@ while True:
     choice = input(Fore.YELLOW+"\nDooro module: ")
 
     if choice == "1":
-        ip_scanner= Style.BRIGHT+Fore.LIGHTGREEN_EX+pyfiglet.figlet_format('IP SCCANNER')
+        ip_scanner = Style.BRIGHT + Fore.LIGHTGREEN_EX + pyfiglet.figlet_format('IP SCCANNER')
         print(ip_scanner)
-        ip_target()          # Wacida hawsha ip_target()
-        #start_scanner()
+        ip_target()
+        
     elif choice == "2":
-       	ip_location=Style.BRIGHT+Fore.LIGHTGREEN_EX+pyfiglet.figlet_format('IP TRACKER')
-       	print(ip_location)
-       	ip_track()
-   
+        ip_location = Style.BRIGHT + Fore.LIGHTGREEN_EX + pyfiglet.figlet_format('IP TRACKER')
+        print(ip_location)
+        ip_track()
+
     elif choice == "3":
-    	 whois_banner = Style.BRIGHT+Fore.LIGHTGREEN_EX+pyfiglet.figlet_format("WHOIS INFO")
-    	 print(whois_banner)
-    	 domain = input(Fore.YELLOW+'gali domian (tusale:[google.com]):')
-    	 get_whois_info(domain)
-	 break
-    	
+        whois_banner = Style.BRIGHT + Fore.LIGHTGREEN_EX + pyfiglet.figlet_format("WHOIS INFO")
+        print(whois_banner)
+        domain = input(Fore.YELLOW + 'gali domian (tusale:[google.com]):')
+        get_whois_info(domain)
+        break
+
     elif choice == "4":
-    	print(Fore.YELLOW,'thanks for using ')
-    	break
+        print(Fore.YELLOW, 'thanks for using ')
+        break
+
     else:
-        print(Fore.RED+"Fadlan dooro tiro sax ah!")
+        print(Fore.RED + "Fadlan dooro tiro sax ah!")
         continue
